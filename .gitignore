@@ -1,0 +1,27 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django migrations (optional to ignore if you're sharing initial setup)
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~
+
+# Virtual environment
+env/
+venv/
+ENV/
+.env
+
+# Django secret files and local settings
+*.sqlite3
+*.pyc
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
